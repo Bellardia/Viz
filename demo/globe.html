@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="utf-8">
+    <title>Jumbleberry Viz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="globe/css/bootstrap.min.css" rel="stylesheet">
+    <link href="globe/css/style.min.css" rel="stylesheet">
+    <link href="globe/css/component.css" rel="stylesheet">
+</head>
+<body id="body">
+    <div id="loading-overlay">
+    <div id="loading">
+      <img src="globe/images/logo.png" width="216" height="49" id="logo"/>
+      <img src="globe/images/logob.png" width="216" height="49" id="logo-shadow"/>
+      <img src="globe/images/top-right.png" width="50" height="50" id="logo-sphere-back"/>
+      <img src="globe/images/left.png" width="85" height="85" id="logo-sphere-mid"/>
+      <img src="globe/images/bot-right.png" width="65" height="65" id="logo-sphere-front"/>
+    </div>
+    </div>
+    <header class="headnav navbar">
+      <div id="underline"></div>
+      <nav class="">
+        <ul>
+            <li><span>May</span></li>
+            <li><span>Jun</span></li>
+            <li><span>Jul</span></li>
+            <li><span>Aug</span></li>
+            <li><span>Sep</span></li>
+            <li><span>Oct</span></li>
+            <li><span>Nov</span></li>
+            <li><span>Dec</span></li>
+            <li><span>Jan</span></li>
+            <li><span>Feb</span></li>
+            <li><span>Mar</span></li>
+            <li><span>Apr</span></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="st-container" class="st-container st-effect-1">
+        <nav class="st-menu st-effect-1">
+            <div id="sidebar-left" class="col-lg-12">
+                <a href="javascript:;" id="main-menu-min" class="full"><i class="fa fa-angle-left"></i></a>
+                <h2>metrics</h2>
+                <div class="">
+                    <ul class="nav main-menu">
+                        <li class="opts-hits"><a href="javascript:;"><span class="hidden-sm text"> Hits</span></a></li>
+                    </ul>
+                </div>
+                <h2 class="">timeline</h2>
+                <div class="">
+                    <ul class="nav main-menu">
+                        <li class="opts-monthly"><a href="javascript:;"><span class="hidden-sm text"> Monthly</span></a></li>
+                        <li class="opts-weekly"><a href="javascript:;"><span class="hidden-sm text"> Hourly</span></a></li>
+                    </ul>
+                </div>
+                <h2 class="">color scheme</h2>
+                <div class="">
+                    <ul class="nav main-menu">
+                        <li class="opts-blue"><a href="javascript:;"><span class="hidden-sm text"> Blue</span></a></li>
+                        <li class="opts-red"><a href="javascript:;"><span class="hidden-sm text"> Red</span></a></li>
+                    </ul>
+                </div>
+                <h2 class="">display</h2>
+                <div class="">
+                    <ul class="nav main-menu">
+                        <li class="opts-time"><a href="javascript:;"><span class="hidden-sm text"> Automate Time</span></a></li>
+                        <li class="opts-rotate"><a href="javascript:;"><span class="hidden-sm text"> Rotate</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="st-pusher">
+            <div class="st-content">
+                <div class="st-content-inner">
+                    <div class="row">
+                        <div id="vignette" class="overlay vignette"></div>
+                        <div id="noise" class="overlay noise"></div>
+                        <div id="container"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="globe/third-party/jQuery.js"></script>
+    <script type="text/javascript" src="globe/third-party/Three/Three.js"></script>
+    <script type="text/javascript" src="globe/third-party/Tween.js"></script>
+    <script type="text/javascript" src="globe/third-party/Plax.js"></script>
+    <script type="text/javascript" src="globe/third-party/Chroma.js"></script>
+    <script type="text/javascript" src="globe/third-party/nProgress.js"></script>
+    <script type="text/javascript" src="globe/globe.js"></script>
+    <script type="text/javascript" src="demo.js"></script>
+</body>
+</html>
