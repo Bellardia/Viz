@@ -7,6 +7,10 @@ Viz
 ---
 A fork of Google's DAT Globe, optimized for rendering and streaming large datasets.
 
+Demo
+---
+Click here [here](http://bellardia.github.io/Viz/) to view a basic live demo. Hit the "esc" key to bring up additional options.
+
 Features Added
 ---
 
