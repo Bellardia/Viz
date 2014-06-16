@@ -1,7 +1,5 @@
 Viz
 ===
----
-
 
 ![Demo](https://raw.githubusercontent.com/Bellardia/Viz/gh-pages/preview.png "Demo Image")  
   
