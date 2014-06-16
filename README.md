@@ -1,7 +1,12 @@
 Viz
 ===
+---
 
 
+![Demo](https://raw.githubusercontent.com/Bellardia/Viz/gh-pages/preview.png "Demo Image")  
+  
+    
+---
 A fork of Google's DAT Globe, optimized for rendering and streaming large datasets.
 
 Features Added
