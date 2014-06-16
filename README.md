@@ -19,7 +19,7 @@ Features Added
 * Dyanmic coloring of vertexes (colours scale by magnitude by default)
 * Allow new point sets to be dynamically loaded
 * New Binary file format to greatly reduce the size of data files
-* Fix several memory leaks and improved overally performance drastically
+* Fix several memory leaks and improved overall performance drastically
 
 Roadmap
 ---
